@@ -11,7 +11,7 @@ export default function Categories({ categories, selectCategory }: CategoriesTyp
         <div
             style={{
                 display: 'flex', justifyContent: 'space-evenly', width: '400px',
-                marginLeft: '370px', flexWrap: 'wrap', height: '150px',marginTop:'40px'  
+               margin:'auto', flexWrap: 'wrap', height: '150px',marginTop:'40px'  
             }}>
             {
                 categories.map((category, i) => (
