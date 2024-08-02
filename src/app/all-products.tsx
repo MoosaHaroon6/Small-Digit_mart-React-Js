@@ -11,8 +11,8 @@ export default function AllProducts({ productsList }: ProductsListType) {
     return (
         <table
             style={{
-                border: '1px solid black', margin: 'auto', backgroundColor: 'rgb(232 232 232)',
-                width: '800px', borderRadius: '5px'
+                border: '1px solid black', marginLeft: '300px', backgroundColor: 'rgb(232 232 232)',
+                width: '500px', borderRadius: '5px'
             }}>
             <thead>
                 <tr>

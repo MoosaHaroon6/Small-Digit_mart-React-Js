@@ -133,7 +133,7 @@ export default function Home() {
   return (
     <>
       {/* <MyInfo /><br /> */}
-      <h1 style={{color:'#212121',display:'inline',margin:'600px'}}>Digital Shop</h1>
+      <h1 style={{color:'#212121',textAlign:'center',marginLeft:'300px',width:'500px'}}>Digital Shop</h1>
       <Categories
         categories={categList}
         selectCategory={selectCategory} />
